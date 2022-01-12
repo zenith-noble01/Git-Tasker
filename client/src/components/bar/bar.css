@@ -18,6 +18,8 @@
     display: flex;
     border: var(--border);
     border-radius: 5px;
+    align-items: center;
+    padding: 0 10px;
 }
 
 .right__bar .right_search input{
@@ -36,11 +38,15 @@
     height: 35px;
     margin-left: 30px;
     border: none;
-    background: #11B2E1;
+    background: #395883;
     align-items: center;
     padding: 0 20px;
     color: var(--color);
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.icon{
+    margin-right: 10px;
 }

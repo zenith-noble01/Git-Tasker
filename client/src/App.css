@@ -4,7 +4,7 @@
 
 :root{
   --color: whitesmoke;
-  --bg: #333;
-  --border: 1px solid rgb(97, 97, 97);
-  --content-bg: #222;
+  --bg: rgb(247, 235, 235);
+  --border: 1px solid #444c56;
+  --content-bg: #22272e;
 }

@@ -7,10 +7,11 @@ const Bar = () => {
             <div className="left__bar"></div>
             <div className="right__bar">
                 <div className="right_search">
-                    <i className="fa fa-search"></i>
+                    <i className="icon__search fa fa-search"></i>
                     <input type="text" placeholder="Search" />
                 </div>
-                <button className="fa fa-plus">Add new</button>
+                <button className="btn">
+                    <i className="icon fa fa-plus"></i>Add new</button>
             </div>
         </div>
     )
