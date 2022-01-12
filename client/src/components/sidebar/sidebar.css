@@ -1,0 +1,26 @@
+.sidebar{
+    flex: 1;
+    color: var(--color);
+    background: var(--content-bg);
+    border-right: var(--border);
+    height: 100vh;
+}
+
+.sidebar__header{
+    display: flex;
+    align-items: center;
+    border-bottom: var(--border);
+    height: 70px;
+}
+
+.sidebar__header img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.sidebar__header p{
+    display: flex;
+    font-weight: bold;
+
+}

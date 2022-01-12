@@ -1,0 +1,5 @@
+.menu{
+    flex: 3;
+    color: var(--color);
+    background: var(--content-bg);
+}
