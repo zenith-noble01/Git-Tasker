@@ -1,0 +1,29 @@
+.team{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.teams{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.team .addTeam{
+    margin-top: 20px;
+    width: 80%;
+    border: none;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-radius: 5px;
+    background: var(--hover);
+    cursor: pointer;
+    color: var(--light__color);
+    box-shadow: 1px 3px 10px 1px rgb(0, 0, 0);
+}
+
+.addTeam i{
+    margin-right: 10px;
+}

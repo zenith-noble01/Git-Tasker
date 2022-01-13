@@ -1,0 +1,11 @@
+.midContent{
+    margin-top: 10px;
+    border-top: var(--border);
+    padding: 20px;
+}
+
+.midHeader{
+    color: var(--light__color);
+    font-weight: 900;
+    text-transform: uppercase;
+}

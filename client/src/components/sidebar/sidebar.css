@@ -24,3 +24,9 @@
     font-weight: bold;
 
 }
+
+@media (max-width: 1030px){
+    .sidebar{
+        height: 100%;
+    }
+}

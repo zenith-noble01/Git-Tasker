@@ -28,7 +28,7 @@
     height: 35px;
     outline: none;
     padding: 0 12px;
-    color: var(--color);
+    color: var(--light__lor);
     width: 100%;
     font-size: 15px;
 }
@@ -49,4 +49,8 @@
 
 .icon{
     margin-right: 10px;
+}
+
+.icon__search{
+    color: var(--light__color);
 }

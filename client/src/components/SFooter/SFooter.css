@@ -1,0 +1,28 @@
+.sFooter{
+    border-top: var(--border);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.sFooter img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: var(--border);
+    cursor: pointer;
+}
+
+.sFooter p{
+    transition: var(--trans);
+    cursor: pointer;
+    color: var(--color);
+}
+
+.sFooter p:hover{
+    color: var(--light__color);
+    text-decoration: underline;
+}

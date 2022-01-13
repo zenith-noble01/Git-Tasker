@@ -1,10 +1,11 @@
-.app{
-  background: whitesmoke;
-}
 
 :root{
-  --color: whitesmoke;
+  --color: rgb(204, 204, 204);
   --bg: rgb(247, 235, 235);
-  --border: 1px solid #444c56;
-  --content-bg: #22272e;
+  --border: 1px solid rgb(29, 29, 29);
+  --content-bg: rgb(14, 14, 14);
+  --hover: rgb(29, 29, 29);
+  --light__color: #444c56;
+  --light__lor: #b3b3b3;
+  --trans: .5s ease;
 }

@@ -9,7 +9,6 @@ import Content from './components/content/Content'
 const App = () => {
   return (
     <div className="app">
-      {/* <Sidebar /> */}
       <Routes>
         <Route index element={<Content />} />
         <Route path="register" element={<Register />} />
