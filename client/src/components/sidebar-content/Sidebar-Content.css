@@ -11,15 +11,19 @@
      padding: 8px 20px;
      transition: var(--trans);
      font-weight: bold;
+     display: flex;
+     align-items: center;
  }
 
 
  .sidebarContent li:hover{
      background: var(--hover);
+     /* justify-content: cent */
  }
 
 
- .sidebarContent li i{
-     margin-right: 8px;
+ .sidebarContent li svg{
+     height: 20px;
+     margin-right: 10px;
  }
 
