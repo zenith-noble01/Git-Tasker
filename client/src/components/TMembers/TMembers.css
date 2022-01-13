@@ -17,11 +17,13 @@
     font-size: 12px;
     margin-bottom: 10px;
 }
-.member__header i{
-    color: rgb(124, 124, 124);
+.member__header p i{
+    margin-left: 10px
 }
 
-
+.dots{
+    height: 15px;
+}
 
 .members{
     display: flex;
